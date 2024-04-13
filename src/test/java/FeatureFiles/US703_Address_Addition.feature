@@ -1,7 +1,6 @@
-Feature: Register functionality
+Feature: Address Addition
 
-  Scenario: Register with information and click register button
+  Scenario: Address Addition click button
 
-    Given Navigate to Magento
-    When Register information and click register button
-    Then User should register successfully
+
+
