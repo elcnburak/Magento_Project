@@ -1,4 +1,11 @@
 package Runners;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-public class US701_User_Registration {
+@CucumberOptions(
+        features = {"src/test/java/FeatureFiles/US701_User_Registration.feature"},
+        glue = {"StepDefinitions"}
+)
+public class US701_User_Registration extends AbstractTestNGCucumberTests {
+
 }
