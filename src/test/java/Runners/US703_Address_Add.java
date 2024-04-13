@@ -8,5 +8,6 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"StepDefinitions"}
 )
 
-public class US703_Address_Addition extends AbstractTestNGCucumberTests {
+public class US703_Address_Add extends AbstractTestNGCucumberTests {
+
 }
