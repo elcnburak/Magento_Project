@@ -13,14 +13,12 @@ In this sprint, we will be using an environment hosting a demo of Magento's open
 ## User Stories Summary:
 - US701 | User Registration:
 Creating registration for new users in Magento.
-(USE DATA TABLE.)
 
 - US702 | User Login:
 Verifying login process for registered users.
 
 - US703 | Add Address:
 Adding address to the system for registered users.
-(USE SCENARIO OUTLINE.)
 
 - US704 | TAB Menu:
 Checking TAB menu functionality.
