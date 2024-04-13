@@ -37,6 +37,11 @@ Confirming the search functionality with the search of a randomly selected produ
 US708 | Wish List:
 Testing the addition/removal of products to/from the wish list.
 
+
+Name	Position	E-mail	GitHub
+Elçin Burak	Team Lead-QA Tester	elcnburak@hotmail.com	elcnburak
+Gülmira Sidagulova	QA Tester	sidagulova@gmail.com	gu1mira
+
 Project Technologies and Tools:
 The fundamental technologies and tools used in this project include:
 
