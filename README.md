@@ -9,3 +9,45 @@ For more information, you can visit Magento's official website.
 In this sprint, we will be using an environment hosting a demo of Magento's open-source version:
 
 https://magento.softwaretestingboard.com/
+
+User Stories Summary:
+US701 | User Registration:
+Creating registration for new users in Magento.
+(USE DATA TABLE.)
+
+US702 | User Login:
+Verifying login process for registered users.
+
+US703 | Add Address:
+Adding address to the system for registered users.
+(USE SCENARIO OUTLINE.)
+
+US704 | TAB Menu:
+Checking TAB menu functionality.
+
+US705 | Add Product to Cart:
+Allowing registered users to add/remove products randomly to/from the cart.
+
+US706 | Product Order:
+Enabling registered users to place and confirm product orders.
+
+US707 | Search Functionality:
+Confirming the search functionality with the search of a randomly selected product ID (e.g., SKU #: MJ08).
+
+US708 | Wish List:
+Testing the addition/removal of products to/from the wish list.
+
+Project Technologies and Tools:
+The fundamental technologies and tools used in this project include:
+
+Programming Language: JAVA
+Test Automation Tools: SELENIUM WebDriver
+Test Framework: TestNG
+BDD Framework: CUCUMBER
+Test Automation Pattern: Page Object Model (POM)
+Dependency Management and Build: MAVEN
+File Handling Tools: APACHE POI (Optional)
+Reporting Tools: EXTENT Report or a similar reporting tool
+Version Control System: GIT and GITHUB
+Test Management Tools: JIRA and a tool similar to ZEPHYR / XRAY
+Logging Interface: SLF4J (Simple Logging Facade for Java)
