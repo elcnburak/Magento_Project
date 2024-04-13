@@ -35,8 +35,51 @@ public class DialogContent extends ParentPage{
         @FindBy(xpath = "//button[@title='Create an Account']")
         public WebElement registerButton;
 
-       @FindBy(xpath ="//div[@class='message-success success message']")
-       public WebElement welcomeMessage;
+        @FindBy(xpath ="//button[@data-action='customer-menu-toggle']")
+        public WebElement customerMenu;
+
+        @FindBy(xpath ="//a[text()='My Account']")
+        public WebElement myAccount;
+
+        @FindBy(xpath ="//a[contains(@class, 'edit') and contains(@href, '/customer/address/')]")
+        public WebElement manageAddress;
+
+       @FindBy(id = "street_1")
+       public WebElement street;
+
+       @FindBy(id = "city")
+       public WebElement city;
+
+       @FindBy(xpath = "//select[@id='region_id']/option[text()='Texas']")
+       public WebElement region;
+
+       @FindBy(id = "zip")
+       public WebElement zipCode;
+
+       @FindBy(xpath = "//select[@id='country']/option[text()='United States']")
+       public WebElement country;
+
+       @FindBy(xpath = "//button[@title='Save Address']")
+       public WebElement saveAddressButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
