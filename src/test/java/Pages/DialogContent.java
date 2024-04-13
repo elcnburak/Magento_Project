@@ -68,6 +68,27 @@ public class DialogContent extends ParentPage{
        @FindBy(xpath = "//input[@id='primary_shipping']")
        public WebElement shipCheck;
 
+      @FindBy(id = "ui-id-5")
+      public WebElement MenMenu;
+
+      @FindBy(xpath = "//a[contains(text(), 'Jackets')]")
+      public WebElement MenJacketsMenu;
+
+      @FindBy(xpath = "//a[@class='product-item-link' and text()='Proteus Fitness Jackshirt']")
+      public WebElement RandomItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
