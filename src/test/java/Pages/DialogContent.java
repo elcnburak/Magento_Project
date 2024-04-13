@@ -44,43 +44,29 @@ public class DialogContent extends ParentPage{
         @FindBy(xpath ="//a[contains(@class, 'edit') and contains(@href, '/customer/address/')]")
         public WebElement manageAddress;
 
-       @FindBy(id = "street_1")
-       public WebElement street;
+        @FindBy(xpath ="//button[@type='button' and @role='add-address' and @title='Add New Address' and contains(@class, 'add')]")
+        public WebElement addNewAddress;
+
+        @FindBy(id = "telephone")
+        public WebElement PhoneNumber;
+
+        @FindBy(id = "street_1")
+        public WebElement street;
 
        @FindBy(id = "city")
        public WebElement city;
 
-       @FindBy(xpath = "//select[@id='region_id']/option[text()='Texas']")
-       public WebElement region;
-
        @FindBy(id = "zip")
        public WebElement zipCode;
-
-       @FindBy(xpath = "//select[@id='country']/option[text()='United States']")
-       public WebElement country;
 
        @FindBy(xpath = "//button[@title='Save Address']")
        public WebElement saveAddressButton;
 
+       @FindBy(xpath = "//input[@id='primary_billing']")
+       public WebElement billCheck;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       @FindBy(xpath = "//input[@id='primary_shipping']")
+       public WebElement shipCheck;
 
 
 
