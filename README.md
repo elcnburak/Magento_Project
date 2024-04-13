@@ -30,7 +30,7 @@ Allowing registered users to add/remove products randomly to/from the cart.
 Enabling registered users to place and confirm product orders.
 
 - US707 | Search Functionality:
-Confirming the search functionality with the search of a randomly selected product ID (e.g., SKU #: MJ08).
+Confirming the search functionality with the search of a randomly selected product ID 
 
 - US708 | Wish List:
 Testing the addition/removal of products to/from the wish list.
