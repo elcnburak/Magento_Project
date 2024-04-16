@@ -71,11 +71,79 @@ public class DialogContent extends ParentPage{
       @FindBy(id = "ui-id-5")
       public WebElement MenMenu;
 
-      @FindBy(xpath = "//a[contains(text(), 'Jackets')]")
-      public WebElement MenJacketsMenu;
+      @FindBy(xpath = "//img[@class='product-image-photo' and @alt='Hero Hoodie']")
+      public WebElement product1;
 
-      @FindBy(xpath = "//a[@class='product-item-link' and text()='Proteus Fitness Jackshirt']")
-      public WebElement RandomItem;
+      @FindBy(xpath = "//div[@class='swatch-option text' and @option-label='M']")
+      public WebElement product1M;
+
+      @FindBy(xpath = "//div[@option-label='Green']")
+      public WebElement product1Colour;
+
+      @FindBy(xpath = "//input[@type='number' and @name='qty']")
+      public WebElement product1Qty;
+
+      @FindBy(xpath = "//button[@type='submit' and @title='Add to Cart']")
+      public WebElement product1AddtoCart;
+
+      @FindBy(xpath = "//a[@class='action showcart']")
+      public WebElement theCart;
+
+      @FindBy(xpath = "//input[contains(@class, 'item-qty') and contains(@class, 'cart-item-qty')]")
+      public WebElement theCartQty;
+
+      @FindBy(xpath = "//span[text()='Update']")
+      public WebElement theCartUpdate;
+
+      @FindBy(xpath = "//a[@class='action delete' and @title='Remove item']")
+      public WebElement theCartDelete;
+
+      @FindBy(xpath = "//button[@class='action-primary action-accept']")
+      public WebElement theCartDeleteOk;
+
+      @FindBy(xpath = "//div[@role='alert' and @data-bind='foreach: { data: messages().messages, as: 'message' }']/div/div")
+      public WebElement theCartAddMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
