@@ -11,29 +11,16 @@ In this sprint, we will be using an environment hosting a demo of Magento's open
 [https://magento.softwaretestingboard.com/](https://magento.softwaretestingboard.com/)
 
 ## User Stories Summary:
-- US701 | User Registration:
-Creating registration for new users in Magento.
-
-- US702 | User Login:
-Verifying login process for registered users.
-
-- US703 | Add Address:
-Adding address to the system for registered users.
-
-- US704 | TAB Menu:
-Checking TAB menu functionality.
-
-- US705 | Add Product to Cart:
-Allowing registered users to add/remove products randomly to/from the cart.
-
-- US706 | Product Order:
-Enabling registered users to place and confirm product orders.
-
-- US707 | Search Functionality:
-Confirming the search functionality with the search of a randomly selected product ID 
-
-- US708 | Wish List:
-Testing the addition/removal of products to/from the wish list.
+| User Story No. | User Story Summary                                                                                           | Contributors            |
+|----------------|--------------------------------------------------------------------------------------------------------------|-------------------------|
+| US701          | User Registration: Creating registration for new users in Magento.                                           |   Elcin Burak           |
+| US702          | User Login: Verifying login process for registered users.                                                    |   Gulmira Sidagulova    |
+| US703          | Add Address: Adding address to the system for registered users.                                              |   Elcin Burak           |
+| US704          | TAB Menu: Checking TAB menu functionality.                                                                   |   Gulmira Sidagulova    |
+| US705          | Add Product to Cart: Allowing registered users to add/remove products randomly to/from the cart.             |   Elcin Burak           |
+| US706          | Product Order: Enabling registered users to place and confirm product orders.                                |   Elcin Burak           |
+| US707          | Search Functionality: Confirming the search functionality with the search of a randomly selected product ID. |   Elcin Burak           |
+| US708          | Wish List: Testing the addition/removal of products to/from the wish list.                                   |   Elcin Burak           |
 
 ## Contributors
 | Name             | Position          | E-mail                | GitHub     |
