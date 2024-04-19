@@ -122,6 +122,27 @@ public class DialogContent extends ParentPage{
       @FindBy(xpath = "//a[@title=\"Remove This Item\"]")
       public WebElement removeItemButton;
 
+      @FindBy(id = "search")
+      public WebElement search;
+
+      @FindBy(xpath = "//img[@alt='Lando Gym Jacket']")
+      public WebElement searchProduct;
+
+      @FindBy(xpath = "//li[@id='qs-option-0']")
+      public WebElement searchProductList;
+
+      @FindBy(xpath = "//a[text()='Jackets']")
+      public WebElement Jackets;
+
+
+
+
+
+
+
+
+
+
 
 
 
