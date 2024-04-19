@@ -12,7 +12,6 @@ public class LeftNav extends ParentPage{
     @FindBy(xpath ="(//*[@class='authorization-link']/a)[1]")
     public WebElement SignInLink;
 
-
     @FindBy(id ="email")
     public WebElement logInEmail;
 
