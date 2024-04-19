@@ -110,11 +110,27 @@ public class DialogContent extends ParentPage{
       @FindBy(xpath = "//span[text()='Next']")
       public WebElement nextButton;
 
-      @FindBy(xpath = "//span[text()='Place Order']")
-      public WebElement placeOrder;
+      @FindBy(xpath = "//span[text()=\"Add to Wish List\"]")
+      public WebElement addToWishList;
 
-      @FindBy(xpath = "//span[@class='base' and @data-ui-id='page-title-wrapper']")
-      public WebElement purchaseMessage;
+      @FindBy(xpath = " //button[@data-action=\"customer-menu-toggle\"]")
+      public WebElement userMenuIcon;
+
+      @FindBy(xpath = "//a[contains(text(), 'My Wish List')]")
+      public WebElement myWishListButton;
+
+      @FindBy(xpath = "//a[@title=\"Remove This Item\"]")
+      public WebElement removeItemButton;
+
+
+
+
+
+
+
+
+
+
 
 
 
