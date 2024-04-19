@@ -68,8 +68,8 @@ public class DialogContent extends ParentPage{
        @FindBy(xpath = "//input[@id='primary_shipping']")
        public WebElement shipCheck;
 
-      @FindBy(id = "ui-id-5")
-      public WebElement MenMenu;
+       @FindBy(id = "ui-id-5")
+       public WebElement MenMenu;
 
       @FindBy(xpath = "//img[@class='product-image-photo' and @alt='Hero Hoodie']")
       public WebElement product1;
@@ -101,8 +101,34 @@ public class DialogContent extends ParentPage{
       @FindBy(xpath = "//button[@class='action-primary action-accept']")
       public WebElement theCartDeleteOk;
 
-      @FindBy(xpath = "//div[@role='alert' and @data-bind='foreach: { data: messages().messages, as: 'message' }']/div/div")
-      public WebElement theCartAddMessage;
+      @FindBy(id = "top-cart-btn-checkout")
+      public WebElement proceedToCheckout;
+
+      @FindBy(xpath = "//input[@value='tablerate_bestway']")
+      public WebElement bestWay;
+
+      @FindBy(xpath = "//span[text()='Next']")
+      public WebElement nextButton;
+
+      @FindBy(xpath = "//span[text()='Place Order']")
+      public WebElement placeOrder;
+
+      @FindBy(xpath = "//span[@class='base' and @data-ui-id='page-title-wrapper']")
+      public WebElement purchaseMessage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
