@@ -12,6 +12,7 @@ public class US702Login {
     @Given("user visits the Magento website")
     public void userVisitsTheMagentoWebsite() {
         GWD.getDriver().get("https://magento.softwaretestingboard.com/");
+        ln.consent.click();
     }
 
     @And("user clicks on Sign in section")
