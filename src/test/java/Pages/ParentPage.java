@@ -1,8 +1,10 @@
 package Pages;
 
+import Utilities.GWD;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -10,11 +12,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 import static Utilities.GWD.*;
 
 public class ParentPage {
-
 
     public WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
 
@@ -55,4 +58,12 @@ public class ParentPage {
         element.clear();
 
     }
+    public void ActionHover(WebElement element){
+        Actions driverAksiyon=new Actions(GWD.getDriver());
+        Action aksiyon=driverAksiyon.moveToElement(element).build();
+        wait.until(ExpectedConditions.visibilityOf(element));
+        aksiyon.perform();
+    }
+
+
 }
